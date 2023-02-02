@@ -1,0 +1,104 @@
+.pagination {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+   margin-top: 10px;
+    gap: 5px;
+  
+    cursor: pointer;
+  }
+ 
+  .pagination .page-num {
+    padding: 2px 8px;
+    cursor: pointer;
+    border-radius: 3px;
+    font-weight: 500;
+  }
+ 
+  .main-contenars{
+    width: 80%;
+    height: auto;
+    padding: 20px;
+    background-color: lightgray;
+    border-radius: 4px;
+  }
+ 
+  .pagination .active {
+    background-color: #f55;
+  }
+  .info{
+    height:90px;
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    margin: 5px 0px;
+    padding: 0px 4px;
+    border-radius: 4px;
+   align-items: center;
+   justify-content: space-evenly;
+   font-size: .8rem;
+ 
+   line-height: 20px;
+    background-color: #fff;
+  }
+
+  .toogle{
+    font-size: 10px;
+    padding: 5px 10px;
+   /* outline: none; */
+   color: #fff;
+   background-color: #f55;
+   border: none;
+    border-radius: 30px;
+  }
+  .name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    flex-direction: column;
+    width: 20%;
+  }
+
+  .user-info{
+ 
+    width: 90%;
+ 
+    padding: 14px 0px;
+    height: 400px;
+    border-radius: 4px;
+  }
+
+  .user-contenar{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    }
+
+  .userdata{
+    height: 340px;
+     border: 1px solid black;
+     width: 100%;
+     border-radius: 3px;
+     background-color: #fff;
+     box-shadow: 0px 0px 3px 3px  #fff;
+     padding: 5px  8px ;
+  }
+  .main{
+    display: flex;
+    
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .details{
+    margin:5px ;
+    line-height: 25px;
+ 
+  }

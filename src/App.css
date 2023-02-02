@@ -1,0 +1,21 @@
+.App {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.heading{
+  text-align: center;
+  background-color: gray;
+  margin: 4px 0px;
+  width: 80%;
+font-size: 22px;
+padding: 5px 0px;
+border-radius: 3px;
+color: aqua;
+}
+span{
+  text-align: center;
+}
